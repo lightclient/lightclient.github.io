@@ -1,6 +1,6 @@
 body {
 	font-family: monospace;
-  font-size: 8px;
+  font-size: 10px;
 	height: 100vh;
 }
 
@@ -31,4 +31,14 @@ td::before {
 
 .table {
   margin-top: -2rem;
+}
+
+@media only screen and (max-device-width: 1200px) {
+  body {
+    font-size: 30px;
+  }
+
+  .table {
+    margin-top: 0;
+  }
 }

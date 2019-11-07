@@ -30,8 +30,7 @@ td::before {
   justify-content: center;
 }
 
-@media only screen 
-and (max-device-width : 1024px)
+@media only screen and (max-device-width : 1024px)
 {
     body {                           
         height: 768px;                         

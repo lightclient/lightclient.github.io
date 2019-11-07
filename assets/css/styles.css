@@ -1,7 +1,7 @@
 body {
   margin: 0px;
 	font-family: monospace;
-  font-size: 10px;
+  font-size: 0.6rem;
 	height: 100vh;
 }
 
@@ -30,16 +30,11 @@ td::before {
   justify-content: center;
 }
 
-.table {
-  margin-top: -2rem;
-}
-
-@media only screen and (max-device-width: 1200px) {
-  body {
-    font-size: 30px;
-  }
-
-  .table {
-    margin-top: 0;
-  }
+@media only screen 
+and (max-device-width : 1024px)
+{
+    body {                           
+        height: 768px;                         
+        font-size: 2rem;
+    }                       
 }
